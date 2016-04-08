@@ -1,0 +1,25 @@
+.intro-name {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -181px;
+}
+
+.box {
+    height:auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#title {
+    margin:5px;
+    border-bottom:1px solid #E38E34;
+    color:#C46908;
+    font-weight:bold;
+}
+#message {
+    margin:5px;
+}
+
+.btn-circle {
+  position: relative;
+}

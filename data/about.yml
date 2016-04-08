@@ -1,0 +1,15 @@
+
+- name: I'm a freelance software developer who likes to build web applications with Ruby on Rails 
+        i am also a very passionate home chef, photographer, philosopher and painter.
+  description:  <div class ="test">     <p>
+        • Eager to learn
+        • Independent
+        • Flexible
+        • Inquisitively
+        • Analytical
+        • Unselfish
+        • Communicative
+        </p></div>
+  price: <p> I transited from the physical creative realm to the abstract realm.
+         <a href="http://www.lewagon.org/en">Le Wagon</a> Dev bootcamp gave my coding skills a boost.</p>
+         <small><a target="_blank" href="http://github.com/waata">Have a look at my Github account</a></small>

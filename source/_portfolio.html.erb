@@ -1,0 +1,21 @@
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="content-section text-center">
+        <div class="portfolio-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    
+                    <% data.portfolio.each do |portfolio| %>
+                    <div class = "portfolio-name"><%= portfolio["name"] %></div>  
+                    <div class = "portfolio-description"><%= portfolio["description-1"] %></div>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                     <div class = "portfolio-site"><%= portfolio["site"] %></div>
+                 </li>
+             </ul>
+             <% end %>
+         </div>
+     </div>
+ </div>
+ <%= partial 'portfolio_2'  %>
+</section>
