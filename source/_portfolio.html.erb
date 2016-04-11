@@ -1,29 +1,39 @@
-    <!-- Portfolio Section -->
-<section id="portfolio">
-        <% data.portfolio.each do |portfolio| %>
-                    <div class="portfolio-section" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-portfolio-section"] %>');">
-                        
-                        <div class="container">
-                        <div class = "portfolio-name"><%= portfolio["name"] %></div>  
-                          <div class="row">
-                            <div class="col-xs-12 col-sm-4">
-                             <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-1-"] %>');">
-                              <div class="card-category"></div>
-                              <div class="card-description">
-                                <%= portfolio["description-1-"] %></div>
-                            <a class="card-link" href=<%= portfolio["site-"] %> ></a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                       <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-2-"] %>');">
-                          <div class="card-category"></div>
-                          <div class="card-description">
-                           <%= portfolio["description-2-"] %></div>
-                       <a class="card-link" href=<%= portfolio["site-2-"] %> ></a>
+            <!-- Portfolio Section -->
+            <section id="portfolio">
+              <div class="w-section section">
+                <div class="about-details">
+                  <div class="w-container container">
+                    <div class="w-row">
+                      <div class="w-col w-col-6 w-col-stack">
+                        <% data.portfolio.each do |portfolio| %>
+                        <div class="portfolio-section" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-portfolio-section"] %>');">
+
+                          <div class="container">
+                            <div class = "portfolio-name"><%= portfolio["name"] %></div>  
+                            <div class="row">
+                              <div class="col-xs-12 col-sm-4">
+                               <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-1-"] %>');">
+                                <div class="card-category"></div>
+                                <div class="card-description">
+                                  <%= portfolio["description-1-"] %></div>
+                                  <a class="card-link" href=<%= portfolio["site-"] %> ></a>
+                                </div>
+                              </div>
+                              <div class="col-xs-12 col-sm-4">
+                               <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-2-"] %>');">
+                                <div class="card-category"></div>
+                                <div class="card-description">
+                                 <%= portfolio["description-2-"] %></div>
+                                 <a class="card-link" href=<%= portfolio["site-2-"] %>></a>
+                                 <% end %>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
                    </div>
+                 </div>
                </div>
              </div>
-            </div>
-          </div>
-        <% end %>
-</section>
+           </section>

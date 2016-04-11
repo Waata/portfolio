@@ -1,12 +1,25 @@
-    <!-- Contact Section -->
-    <section>
-        <% data.portfolio.each do |portfolio| %>
-        <div class="portfolio-section" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-portfolio-section"] %>');">
-            <% data.contact.each do |contact| %>
-            <%= contact["name"] %>
-            <%= contact["mail"] %>
-            <% end %>
-        </div>
-    </div>
-    <% end %>
-</section>
+                            <!-- Contact Section -->
+                            <section>
+                                <div class="w-section section">
+                                  <div class="about-details">
+                                    <div class="w-container container">
+                                      <div class="w-row">
+                                        <div class="w-col w-col-6 w-col-stack">
+                                            <% data.portfolio.each do |portfolio| %>
+                                            <div class="portfolio-section" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-portfolio-section"] %>');">
+                                                <% data.contact.each do |contact| %>
+                                                <%= contact["name"] %>
+                                                <%= contact["mail"] %>
+                                                <% end %>
+                                                <% end %>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

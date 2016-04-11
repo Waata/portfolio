@@ -1,15 +1,23 @@
-            <section id="robots" class="containe">
-             <div class="row">
-              <div class="col-xs-12">
-                <div class="card-robots" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('');">
-                  <div class="card-category"></div>
-                  <% data.about.each do |about| %>
-                  <%= about["title-left"] %>
-                  <%= about["description-left"] %>
-                  <%= about["paragraph-left"] %>
+              <!-- Robots Section -->
+               <section id="robots">
+                <div class="w-section section">
+                  <div class="about-details">
+                    <div class="w-container container">
+                      <div class="w-row">
+                        <div class="w-col w-col-6 w-col-stack">
+                          <div class="card-about-description">
+                            <% data.about.each do |about| %>
+                            <%= about["title-robot"] %>  
+                            <%= about["description-robot"] %>
+                            <%= about["paragraph-robot"] %>
+                          </div>
+                        </div>
+                        <% end  %>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <% end  %>
           </div>
         </section>

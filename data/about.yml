@@ -1,5 +1,3 @@
-
-
 - title: I'm a freelance software developer who likes to build web applications with Ruby on Rails 
         i am also a very passionate home chef, photographer, philosopher and painter.
   description:  <div class ="test">     <p>
@@ -14,20 +12,6 @@
   paragraph: <p> I transited from the physical creative realm to the abstract realm.
         <a href="http://www.lewagon.org/en">Le Wagon</a> Dev bootcamp gave my coding skills a boost.</p>
         <small><a target="_blank" href="http://github.com/waata">Have a look at my Github account</a></small>
-
-  title-left:    <h2>Computer languages</h2>
-  description-left: 
-        In order of fluency
-        HTML, CSS, Ruby, Ruby on Rails, Javascript
-        <h4>Terminal, Github</h4>
-        <h5>
-        Dutch        Fluent (written & oral)
-        English       Fluent (writtan & oral)
-        German         Reasonable (oral)
-        French        mediocre (oral)
-        </h5>
-  paragraph-left:        <p> Some pass time favourites </p>
-        <h5> Cooking, Photography, Music, Sports & Travel</h5>
 
   title-right: <h2>Work experience</h2>
   description-right:     
@@ -51,3 +35,18 @@
         Le Wagon - Fullstack Dev Bootcamp</a></h4>
         <p id="toggle-6" class="collapse in"><a href="http://www.lewagon.org/en">Le Wagon</a> is a coding school for entrepreneurs, Amsterdam, Netherlands.</p>
   paragraph-right: 
+
+  title-robot:    <h2>Computer languages</h2>
+
+  description-robot: 
+        In order of fluency
+        HTML, CSS, Ruby, Ruby on Rails, Javascript
+        <h4>Terminal, Github</h4>
+        <h5>
+        Dutch        Fluent (written & oral)
+        English       Fluent (writtan & oral)
+        German         Reasonable (oral)
+        French        mediocre (oral)
+        </h5>
+  paragraph-robot: <p> Some pass time favourites </p>
+        <h5> Cooking, Photography, Music, Sports & Travel</h5>
