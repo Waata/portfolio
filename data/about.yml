@@ -1,5 +1,6 @@
 
-- name: I'm a freelance software developer who likes to build web applications with Ruby on Rails 
+
+- title: I'm a freelance software developer who likes to build web applications with Ruby on Rails 
         i am also a very passionate home chef, photographer, philosopher and painter.
   description:  <div class ="test">     <p>
         • Eager to learn
@@ -10,6 +11,43 @@
         • Unselfish
         • Communicative
         </p></div>
-  price: <p> I transited from the physical creative realm to the abstract realm.
-         <a href="http://www.lewagon.org/en">Le Wagon</a> Dev bootcamp gave my coding skills a boost.</p>
-         <small><a target="_blank" href="http://github.com/waata">Have a look at my Github account</a></small>
+  paragraph: <p> I transited from the physical creative realm to the abstract realm.
+        <a href="http://www.lewagon.org/en">Le Wagon</a> Dev bootcamp gave my coding skills a boost.</p>
+        <small><a target="_blank" href="http://github.com/waata">Have a look at my Github account</a></small>
+
+  title-left:    <h2>Computer languages</h2>
+  description-left: 
+        In order of fluency
+        HTML, CSS, Ruby, Ruby on Rails, Javascript
+        <h4>Terminal, Github</h4>
+        <h5>
+        Dutch        Fluent (written & oral)
+        English       Fluent (writtan & oral)
+        German         Reasonable (oral)
+        French        mediocre (oral)
+        </h5>
+  paragraph-left:        <p> Some pass time favourites </p>
+        <h5> Cooking, Photography, Music, Sports & Travel</h5>
+
+  title-right: <h2>Work experience</h2>
+  description-right:     
+        <span>2015 - present</span>
+        Op De hoek
+        <h5>Assistent manager</h5>
+
+        April 2014 – December 2014 Jumbo Foodmarkt
+        Chef
+
+        Februari 2014 – August 2014 Blooker 
+        Sous-chef
+
+        March 2013 – February 2014 De Nieuwe Poort Amsterdam
+        Sous-chef
+
+        Augustus 2009 – September 2012  Hamilton Bright, Amsterdam
+        Merchandising & Salespromotion
+        <h3>Education</h3>
+        <span>2015 - present</span>
+        Le Wagon - Fullstack Dev Bootcamp</a></h4>
+        <p id="toggle-6" class="collapse in"><a href="http://www.lewagon.org/en">Le Wagon</a> is a coding school for entrepreneurs, Amsterdam, Netherlands.</p>
+  paragraph-right: 

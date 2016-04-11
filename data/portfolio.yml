@@ -1,7 +1,14 @@
 - name: <h2>Portfolio</h2>
+  photo-portfolio-section: http://res.cloudinary.com/waata/image/upload/v1460130560/IMG_1884_shvssv.jpg
   description: <span>Just go over the buttons below and click them to see my latest work!</span> 
   site: <a href="http://waata.github.io/opdehoek/" class="btn btn-default btn-lg">Visit Opdehoek</a>
   description-1: <span>site build for an awesome restaurant near the coast</span> 
   site-2: <a href="http://track-it.co/" class="btn btn-default btn-lg">Visit Track-it</a>
   description-2: <span>final project during lewagon bootcamp</span> 
 
+  site-: http://waata.github.io/opdehoek/
+  description-1-: <span>build for an awesome restaurant near the coast</span> 
+  photo-1-: http://res.cloudinary.com/waata/image/upload/v1457081174/pgim8o2enzeftvimstoe.jpg
+  site-2-: http://track-it.co/
+  description-2-: <span>final project during lewagon bootcamp</span> 
+  photo-2-: http://res.cloudinary.com/waata/image/upload/v1460121576/Schermafbeelding_2016-04-06_om_11.31.58_rsnlmg.png

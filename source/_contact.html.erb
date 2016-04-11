@@ -1,11 +1,12 @@
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <% data.contact.each do |contact| %>
-                <div class = "contact-name"><%= contact["name"] %></div>  
-                <div class = "contact-mail"><%= contact["mail"] %></div>
-                <% end %>
-            </div>
+    <section>
+        <% data.portfolio.each do |portfolio| %>
+        <div class="portfolio-section" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-portfolio-section"] %>');">
+            <% data.contact.each do |contact| %>
+            <%= contact["name"] %>
+            <%= contact["mail"] %>
+            <% end %>
         </div>
-    </section>
+    </div>
+    <% end %>
+</section>
