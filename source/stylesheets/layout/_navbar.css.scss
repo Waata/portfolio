@@ -16,7 +16,7 @@
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: black;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -25,7 +25,7 @@
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: black;
 }
 
 .navbar-custom .nav li a {
@@ -35,9 +35,9 @@
 }
 
 .navbar-custom .nav li a:hover {
-    outline: 0;
-    color: rgba(255,255,255,.8);
-    background-color: transparent;
+    text-decoration: none;
+    height: 4px;
+    opacity: 0.6;
 }
 
 .navbar-custom .nav li a:focus,
@@ -70,6 +70,22 @@
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        background: #000;
+        background-color: white;
+        color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+            font-size: small;
+    font-weight: 100;
     }
+    .navbar-custom .nav li.active a:hover {
+        color: orange;
+    }
+    .navbar-custom a {
+        color: black;
+
+}
+}
+.navbar-collapse.navbar-right.navbar-main-collapse{
+        font-size: small;
+    font-weight: 100;
 }
