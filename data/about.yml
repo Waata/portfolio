@@ -1,6 +1,6 @@
-- title: I'm a freelance software developer who likes to build web applications with Ruby on Rails 
+- title: <p>I'm a freelance software developer who likes to build web applications with Ruby on Rails 
         i am also a very passionate home chef, photographer, philosopher and painter.
-  description:  <div class ="test">     <p>
+  description:  
         • Eager to learn
         • Independent
         • Flexible
@@ -8,45 +8,40 @@
         • Analytical
         • Unselfish
         • Communicative
-        </p></div>
-  paragraph: <p> I transited from the physical creative realm to the abstract realm.
-        <a href="http://www.lewagon.org/en">Le Wagon</a> Dev bootcamp gave my coding skills a boost.</p>
-        <small><a target="_blank" href="http://github.com/waata">Have a look at my Github account</a></small>
+  paragraph: I transited from the physical creative realm to the abstract realm.
+        <a href="http://www.lewagon.org/en">Le Wagon</a> Dev bootcamp gave my coding skills a boost
+        <small><a target="_blank" href="http://github.com/waata">Have a look at my Github account</a></small></p>
 
-  title-right: <h2>Work experience</h2>
+  title-right: Work experience
   description-right:     
-        <span>2015 - present</span>
+        2015 - present
         Op De hoek
-        <h5>Assistent manager</h5>
-
+        Assistent manager
         April 2014 – December 2014 Jumbo Foodmarkt
         Chef
-
         Februari 2014 – August 2014 Blooker 
         Sous-chef
-
         March 2013 – February 2014 De Nieuwe Poort Amsterdam
         Sous-chef
-
         Augustus 2009 – September 2012  Hamilton Bright, Amsterdam
         Merchandising & Salespromotion
-        <h3>Education</h3>
-        <span>2015 - present</span>
-        Le Wagon - Fullstack Dev Bootcamp</a></h4>
-        <p id="toggle-6" class="collapse in"><a href="http://www.lewagon.org/en">Le Wagon</a> is a coding school for entrepreneurs, Amsterdam, Netherlands.</p>
+        Education
+        2015 - present
+        Le Wagon - Fullstack Dev Bootcamp
+        is a coding school for entrepreneurs, Amsterdam, Netherlands.   
   paragraph-right: 
 
-  title-robot:    <h2>Computer languages</h2>
+  title-robot:  <p>  Computer languages
 
   description-robot: 
         In order of fluency
         HTML, CSS, Ruby, Ruby on Rails, Javascript
-        <h4>Terminal, Github</h4>
-        <h5>
+        Terminal, Github
+    
         Dutch        Fluent (written & oral)
         English       Fluent (writtan & oral)
         German         Reasonable (oral)
         French        mediocre (oral)
-        </h5>
-  paragraph-robot: <p> Some pass time favourites </p>
-        <h5> Cooking, Photography, Music, Sports & Travel</h5>
+        
+  paragraph-robot: Some pass time favourites
+         Cooking, Photography, Music, Sports & Travel</p>

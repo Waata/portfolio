@@ -6,7 +6,8 @@
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-weight: 500;
+    color: #B9ADAD;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -25,7 +26,9 @@
 }
 
 .navbar-custom a {
-    color: black;
+    color: grey;
+    text-align: center;
+
 }
 
 .navbar-custom .nav li a {
@@ -36,8 +39,6 @@
 
 .navbar-custom .nav li a:hover {
     text-decoration: none;
-    height: 4px;
-    opacity: 0.6;
 }
 
 .navbar-custom .nav li a:focus,
@@ -71,11 +72,11 @@
     .navbar-custom.top-nav-collapse {
         padding: 0;
         background-color: white;
-        color: black;
+        color: white;
         margin-left: 20px;
         margin-right: 20px;
-            font-size: small;
-    font-weight: 100;
+        font-size: small;
+        font-weight: 100;
     }
     .navbar-custom .nav li.active a:hover {
         color: orange;
@@ -83,9 +84,9 @@
     .navbar-custom a {
         color: black;
 
-}
+    }
 }
 .navbar-collapse.navbar-right.navbar-main-collapse{
-        font-size: small;
+    font-size: small;
     font-weight: 100;
 }

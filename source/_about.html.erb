@@ -3,21 +3,45 @@
       <div class="w-section section">
         <div class="about-details">
           <div class="w-container container">
-            <div class="w-row">
-              <div class="w-col w-col-6 w-col-stack">
-                <h1>About</h1>
+            <ul>
+              <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>About</h2>
+                <p>             
                   <% data.about.each do |about| %>
                   <%= about["title"] %>  
                   <%= about["description"] %>
                   <%= about["paragraph"] %>
-                </div>
-              </div>
-              <% end  %>
-            </div>
+                  <% end  %>
+                </p>
+              </li>
+              <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>computerskills</h2>
+                <p> 
+                  <% data.about.each do |about| %>
+                  <%= about["title-robot"] %>  
+                  <%= about["description-robot"] %>
+                  <%= about["paragraph-robot"] %>
+                  <% end  %>
+                </p>
+              </li>
+              <li>
+                <input type="checkbox" checked>
+                <i></i>
+                <h2>work</h2>
+                <p>          
+                  <% data.about.each do |about| %>
+                  <%= about["title-right"] %>  
+                  <%= about["description-right"] %>
+                  <%= about["paragraph-right"] %> 
+                  <% end  %>
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-</section>
+    </section>
