@@ -1,19 +1,16 @@
     <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <p>
-                </p>
-                
-                <div class="collapse" id="collapseContact">
-                  <div class="card card-block">
-                    <% data.contact.each do |contact| %>
-                    <%= contact["name"] %>
-                    <%= contact["mail"] %>
-                    <%= contact["phone"] %>
-                    <% end %>
-                </div>
-            </div>
+    <div class="collapse" id="collapseContact">
+    <div class="card-block">
+        <% data.contact.each do |contact| %>
+        <%= contact["name"] %>
+        <%= contact["mail"] %>
+        <%= contact["phone"] %>
+        <% end %>
+    </div>
+</div>
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
             <div class="row">
                 <div class="">
                     <div class="box">
@@ -21,11 +18,6 @@
                     </div>
                     <br>
                     <div id="hidden-button" style="visibility: hidden"><a href="#about" class="fa fa-chevron-circle-down"></a></div>
-                    <script type="text/javascript">
-                        function showIt() {
-                          document.getElementById("hidden-button").style.visibility = "visible";}
-                        setTimeout("showIt()", 5000); // after 1 sec
-                    </script>
                 </div>
             </div>
         </div>

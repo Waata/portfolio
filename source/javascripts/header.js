@@ -17,10 +17,10 @@ function onTick() {
     }
     var text = "";
     for(var i = 0; i < currentOffset; i++){
-     text += wordSet[i] + " ";   
-    }
-    text.trim();
-    $("#message").html(text);
+       text += wordSet[i] + " ";   
+   }
+   text.trim();
+   $("#message").html(text);
 }
 
 function complete() {
@@ -35,13 +35,15 @@ $(".card").click(function () {
 });
 
 Speak("Kompier",
-     "<h3>How can I help you become the best on the web?!</h3>",
+   "<h3>How can I help you become the best on the web?!</h3>",
 
-function () {
+   function () {
     setTimeout(function () {
         Speak("");
     }, 10);
 });
 
-
+function showIt() {
+  document.getElementById("hidden-button").style.visibility = "visible";}
+                        setTimeout("showIt()", 5000); // after 1 sec
 
