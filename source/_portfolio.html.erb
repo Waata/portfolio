@@ -2,13 +2,12 @@
             <section id="portfolio">
               <div class="w-section section">
                 <div class="about-details">
-                 <!--  <div class="w-col w-col-6 w-col-stack"> -->
                  <div class="container">
                   <div class="row">
                     <% data.portfolio.each do |portfolio| %>
                     <div class = "portfolio-name"><%= portfolio["name"] %></div>  
                     <div class="col-xs-12 col-sm-4">
-                      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-1-"] %>');">
+                      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url('<%= portfolio["photo-1-"] %>');">
                         <div class="card-description"><%= portfolio["description-1-"] %></div>
                         <a class="card-link" target="_blank" href=<%= portfolio["site-"] %> ></a>
                       </div>
@@ -17,6 +16,12 @@
                      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-2-"] %>');">
                       <div class="card-description"><%= portfolio["description-2-"] %></div>
                       <a class="card-link" target="_blank" href=<%= portfolio["site-2-"] %> ></a>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-4">
+                    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('<%= portfolio["photo-3-"] %>');">
+                      <div class="card-description"><%= portfolio["description-3-"] %></div>
+                      <a class="card-link" target="_blank" href=<%= portfolio["site-3-"] %> ></a>
                       <% end %>  
                     </div>
                   </div>
@@ -25,3 +30,4 @@
             </div>
           </div>
         </section>
+        
